@@ -13,7 +13,7 @@ z = diff(-y,A);
 
 A = 0;   fs =100; x=-5:1/fs:5-1/fs; var=2;
 
-m = double(z(A,var,x));
+m = double(z(A,var,x)); %Sharpness
 
 
 plot(x,m)
